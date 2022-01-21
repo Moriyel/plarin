@@ -1,11 +1,11 @@
-import React, {FC} from 'react';
+import React from 'react';
+import { Task } from './components/task';
+import './App.scss';
 
-const App: FC = () => {
-  return(
-      <div>
-        testovoe zadanie
-      </div>
-  )
-}
+const App = () => (
+  <div className="App">
+    <Task />
+  </div>
+);
 
 export default App;
