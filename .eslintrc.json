@@ -8,13 +8,14 @@
         "google",
         "plugin:react-hooks/recommended",
         "plugin:import/recommended",
-        "prettier"
+        "prettier",
+        "plugin:import/typescript"
     ],
     "settings": {
         "import/resolver": {
             "node": {
                 "paths": ["src"],
-                "extensions": [".js", ".jsx", ".ts", ".tsx"]
+                "extensions": [".js", ".jsx", ".ts", ".tsx", ".svg"]
             }
         }
     },

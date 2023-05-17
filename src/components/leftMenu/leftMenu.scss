@@ -1,0 +1,19 @@
+.isActive {
+  color: rgba(75, 54, 7, 0.35);
+}
+
+.isActive.active {
+  color: #534714;
+}
+
+.iconOpen {
+  padding: 10px 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 2px;
+}
+
+.sizeOpen {
+  width: 25px; 
+  height: 25px;
+}

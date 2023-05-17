@@ -1,0 +1,1 @@
+export { IsArchive } from './isArchive';
