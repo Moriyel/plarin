@@ -1,3 +1,10 @@
+$bh : 6px 6px 10px rgba(75, 54, 7, 0.25) inset, -6px -6px 10px rgba(75, 54, 7, 0.18) inset;
+$colorText: #534714;
+$svgFill:  #534714;
+$colorBG: #fae6c0;
+
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +12,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #534714;
+  color: $colorText;
 }
 
 code {
@@ -19,6 +26,7 @@ html {
 }
 
 body, html {
+ 
   width: 100%;
   height: 100%;
 }
@@ -28,22 +36,22 @@ a:link, a:visited {
 }
 
 svg g g g path + path {
-  fill:#534714;
+  fill: $svgFill;
 }
 
 .body {
+  overflow: auto;
   font-family: emoji;
   width: 100%;
-  min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background: #fae6c0;
+  background: $colorBG;
   box-shadow: -6px 6px 12px rgba(75,54,7,.35) inset;
   padding: 25px 20px;
 }
 
 .fillSvg g {
-  fill: #534714;
+  fill: $svgFill;
 }
 
 .pgnContainer {
